@@ -36,14 +36,7 @@ body{
     position: absolute;
     display: flex;
     height: 100dvh;  
-    animation: show 3s ease;
-    transition: display 1s ease;
-    z-index: 5;
-}
-@keyframes show {
-    to{
-        display: none;
-    }
+    z-index: 10;
 }
 
 /* Dashboard */
