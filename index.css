@@ -41,7 +41,7 @@ body{
 
 /* Dashboard */
 main{
-    width: 98%;
+    width: 100%;
     z-index: 1;
 }
 .inPlay{
@@ -60,6 +60,10 @@ main{
     background-image: url(soundCheck.jpg);
     background-size: cover;
     background-position: center;
+}
+.image span,
+.image p{
+    font-size: 0.5em;
 }
 .dpics{
     width: 0.7em;
@@ -189,7 +193,7 @@ section::-webkit-scrollbar{
 
 @media (max-width: 768px) {
     body{
-        font-size: 30px;
+        font-size: 35px;
     }
     .inPlay{
         position: fixed;
